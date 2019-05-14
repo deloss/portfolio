@@ -1,0 +1,195 @@
+/* Paleta colores
+azul claro: #BCD6DB;
+azul mas oscuro: #4E5B68;
+
+*/
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
+
+html { scroll-behavior: smooth;
+height:100%;
+width:100%; }
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+    line-height: 1.8;
+    color: grey;
+    height:100%;
+    width:100%;
+    letter-spacing: 0.2em;
+}
+
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -4em;
+  height: 4em;
+  visibility: hidden;
+}
+
+.container {
+	text-align: center;
+}
+
+.centered {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  
+  display: flex;
+  align-items: center;
+}
+/*
+.imgText {
+	background-image: url(../images/laptop.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	box-sizing: border-box;
+	color:black;
+	width: 100%;
+	height: 5em;
+	position:relative;
+}
+*/
+
+.container-fluid{
+	padding: 0;
+}
+
+#introduction {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/laptop.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+.card {
+	border: 2px solid grey;
+	width: 10em;
+	height: 20em;
+	margin-bottom: 1em;
+}
+
+.card img {
+	height: 10em;
+	border-bottom: 0.05em solid grey;
+}
+
+.card .card-body {
+	padding: 0.3em;
+}
+
+.card .card-body p {
+	font-size: 0.8em;
+	letter-spacing: 0em;
+}
+.card .card-body a {
+	font-size: 1em;
+	letter-spacing: 0.1em;
+}
+
+#projects {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/projects.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+#projects .container h1 {
+  color: white;
+  text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+#introduction .container h1 {
+  color: white;
+  text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+#introduction .container p {
+  color: white;
+  text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
+}
+
+#introduction .container div {
+	margin-top: 2em;
+}
+
+#introduction .container div span{
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+#introduction .container div img {
+	width : 1.5em;
+	height: auto;
+}
+
+#introduction .container div .btn {
+	margin-right: 1em;
+	-webkit-box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
+  	-moz-box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
+  	box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
+}
+
+#aboutMeHeader {
+	margin-top: 1em; 
+	margin-bottom: 1em;
+}
+
+#introduction {
+	margin-bottom: 3em;
+}
+
+#aboutMe {
+	margin-bottom: 8em;
+}
+
+
+nav {
+	background-color: #222222;
+}
+
+nav .navbar-brand {
+	color: white;
+	font-size:1em;
+	margin-left: 2em;
+}
+
+nav div #right-links li a{
+	color: grey;
+	margin-right: 2em;
+	-webkit-transition: all 0.5s ease;
+  	-moz-transition: all 0.5s ease;
+  	-o-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+
+}
+
+nav div #right-links li a:hover{
+	color: white;
+	letter-spacing: 0.3em;
+	transform: translate(-0.2em, 0);
+
+}
