@@ -80,6 +80,7 @@ section::before {
   background-size: cover;
   box-sizing: border-box;
   border-radius: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
 }
 
 .card {
@@ -125,11 +126,15 @@ section::before {
 #introduction .container h1 {
   color: white;
   text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.8);
+  animation-name: moveFromLeft;
+  animation-duration: 2s;
 }
 
 #introduction .container p {
   color: white;
   text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
+  animation-name: moveFromRight;
+  animation-duration: 2s;
 }
 
 #introduction .container div {
@@ -192,4 +197,33 @@ nav div #right-links li a:hover{
 	letter-spacing: 0.3em;
 	transform: translate(-0.2em, 0);
 
+}
+
+@keyframes moveFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+
+.imageAnimated{
+    animation: moveFromLeft 1s ease-out;
 }
