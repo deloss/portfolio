@@ -80,7 +80,7 @@ section::before {
   background-size: cover;
   box-sizing: border-box;
   border-radius: 0;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
 }
 
 .card {
@@ -156,6 +156,12 @@ section::before {
 	-webkit-box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
   	-moz-box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
   	box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.8);
+    transition: all .2s ease;
+}
+
+#introduction .container div .btn:hover {
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
 }
 
 #aboutMeHeader {
