@@ -173,7 +173,15 @@ section::before {
 
 
 nav {
-	background-color: #222222;
+	transition: all .4s ease;
+}
+
+.navBackground {
+  background-color: #222222 !important;
+}
+
+.navBackground div #right-links li a{
+  color: grey;
 }
 
 nav .navbar-brand {
@@ -183,7 +191,7 @@ nav .navbar-brand {
 }
 
 nav div #right-links li a{
-	color: grey;
+	color: white;
 	margin-right: 2em;
 	-webkit-transition: all 0.5s ease;
   	-moz-transition: all 0.5s ease;
