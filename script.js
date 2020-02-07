@@ -6,7 +6,7 @@ $(document).ready(function(){
 		var positionImage = $("#aboutMe").position().top;
 
 		if(positionScroll + $(this).height() > positionImage) {
-			$("#aboutMe").addClass("imageAnimated");
+			$("#aboutMe .row").addClass("imageAnimated");
 		}
 
 		if(positionScroll > $("nav").height()) {
