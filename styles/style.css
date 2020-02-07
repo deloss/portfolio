@@ -21,10 +21,21 @@ section::before {
   visibility: hidden;
 }
 
-
 #content {
   
   text-align: center;
+}
+
+h1 {
+  font-family: open sans,sans-serif;
+  font-weight: bold;
+  color: #3a4145;
+}
+
+p {
+  font-family: merriweather,serif;
+  font-weight: bold;
+  color: #aaa;
 }
 
 /* HEADER */
@@ -128,3 +139,45 @@ nav div #right-links li a:hover{
 
 }
 /* */
+
+/* About me */
+
+  #about-me {
+    padding-top:2em;
+    text-align: left;
+  }
+
+  #about-me h1 {
+    font-size:1.5em;
+    margin-bottom: 1em;
+  }
+
+  #about-me p {
+    color: #6b6b6b;
+    font-weight: normal;
+    letter-spacing: 0;
+  }
+
+/* */
+
+/* Projects */
+
+  #projects {
+    padding-top:2em;
+    text-align: left;
+  }
+
+  #projects h1 {
+    font-size:1.5em;
+    margin-bottom: 1em;
+  }
+
+  #projects p {
+    color: #6b6b6b;
+    font-weight: normal;
+    letter-spacing: 0;
+  }
+
+/* */
+
+
