@@ -3,11 +3,6 @@ $(document).ready(function(){
 	$(window).scroll(function(event){
 
 		var positionScroll = $(this).scrollTop();
-		var positionImage = $("#aboutMe").position().top;
-
-		if(positionScroll + $(this).height() > positionImage) {
-			$("#aboutMe .row").addClass("imageAnimated");
-		}
 
 		if(positionScroll > $("nav").height()) {
 			$(".navbar").addClass("navBackground");
