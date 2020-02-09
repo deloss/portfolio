@@ -29,6 +29,9 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="#projects">Projects</a>
 		      </li>  
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact">Contact</a>
+		      </li>  
 	    </ul>
 	  </div>  
 	</nav>
@@ -41,21 +44,61 @@
 		<div class="container">
 			<div class="container" id="about-me">
 				<h1>About me</h1>
-				<p>I'm Santiago, a developer and nearly graduated Computer Engineer. Currently living in Montevideo, Uruguay (UTC-3).<br>I'm currently working as an Android developer and doing some side projects.<br>If you work with me, you can expect good communication and fast response to feedback.<br>If you want to know more, <a href="">contact me</a></p>
+				<p>I'm Santiago, a developer and nearly graduated Computer Engineer. Currently living in Montevideo, Uruguay (UTC-3).<br>I'm currently working as an Android developer and doing some side projects.<br>If you work with me, you can expect good communication and fast response to feedback.<br>If you want to know more <a href="#contact">contact me</a></p>
 				<p>When I'm not coding, you can find me practicing Krav Maga, playing volleyball at the beach or running at the park.</p>
+				<hr>
 			</div>
 			<div class="container" id="projects">
 				<h1>Projects</h1>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card">
+						  <img class="card-img-top" src="..." alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-info">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+						  <img class="card-img-top" src="..." alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-info">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+						  <img class="card-img-top" src="..." alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-info">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+			<div class="container" id="contact">
+				<h1>Contact</h1>
+				<div class="row">
+					<div class="col-md-6">
+						<form action="mail.php" method="post">
+							<input class="form-control" type="text" name="name" id="name" placeholder="Full name" required>
+							<input class="form-control" type="email" name="email" id="email" placeholder="Email address" required>
+							<input class="form-control" type="number" name="telephone" id="telephone" placeholder="Phone number">
+							<input class="form-control" type="text" name="comments" id="comments" placeholder="How can I help you?" required>
+							<button class="btn  btn-lg btn-outline-primary">Submit</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<form action="mail.php" method="post">
-			<input type="text" name="name">
-			<input type="text" name="comments">
-			<input type="text" name="telephone">
-			<input type="email" name="email">
-			<button>submit</button>
-		</form>
 	</div>
 </body>
 </html>

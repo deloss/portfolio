@@ -1,12 +1,10 @@
 <?php
 if(isset($_POST['email'])) {
  
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "santiago.delossantos1998@gmail.com";
     $email_subject = "Message from your website";
  
  
-    // validation expected data exists
     if(!isset($_POST['name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['telephone']) ||
