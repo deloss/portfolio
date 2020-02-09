@@ -206,7 +206,7 @@ nav div #right-links li a:hover{
   letter-spacing: 0;
 }
 
-#contact input {
+#contact .form-control {
   margin-bottom: 0.5em;
 }
 
