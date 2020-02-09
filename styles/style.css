@@ -180,6 +180,11 @@ nav div #right-links li a:hover{
     margin-bottom: 1em;
   }
 
+  .project-img {
+    height: 30em;
+    width: auto;
+  }
+
 /* */
 
 /* Contact */
@@ -193,6 +198,12 @@ nav div #right-links li a:hover{
 #contact h1 {
   font-size:1.5em;
   margin-bottom: 1em;
+}
+
+#contact p {
+  color: #6b6b6b;
+  font-weight: normal;
+  letter-spacing: 0;
 }
 
 #contact input {
